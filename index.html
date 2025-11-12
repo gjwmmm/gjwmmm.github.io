@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>郭佳旺2106049957@qq.com</title>
+    <title>郭佳旺简历作品集在线</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome -->
@@ -164,37 +164,10 @@
             width: 100%;
         }
         
-        .skill-bar {
-            height: 10px;
-            border-radius: 5px;
-            background-color: #e2e8f0;
-            overflow: hidden;
-            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
-        }
+
+            
         
-        .skill-progress {
-            height: 100%;
-            border-radius: 5px;
-            background: linear-gradient(to right, #3498db, #1e5aa8);
-            transition: width 1.5s ease-in-out;
-            position: relative;
-        }
-        
-        .skill-progress::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-            animation: shimmer 2s infinite;
-        }
-        
-        @keyframes shimmer {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
-        }
+
         
         .timeline-item {
             position: relative;
@@ -313,7 +286,7 @@
             <ul class="hidden md:flex space-x-8">
                 <li><a href="#about" class="nav-link text-dark hover:text-accent transition-all-300" data-section="about">关于我</a></li>
                 <li><a href="#experience" class="nav-link text-dark hover:text-accent transition-all-300" data-section="experience">工作经历</a></li>
-                <li><a href="#skills" class="nav-link text-dark hover:text-accent transition-all-300" data-section="skills">技能专长</a></li>
+
                 <li><a href="#projects" class="nav-link text-dark hover:text-accent transition-all-300" data-section="projects">项目作品</a></li>
 
             </ul>
@@ -324,7 +297,7 @@
             <ul class="container mx-auto px-4 py-2">
                 <li><a href="#about" class="block py-2 text-dark hover:text-accent transition-all-300">关于我</a></li>
                 <li><a href="#experience" class="block py-2 text-dark hover:text-accent transition-all-300">工作经历</a></li>
-                <li><a href="#skills" class="block py-2 text-dark hover:text-accent transition-all-300">技能专长</a></li>
+
                 <li><a href="#projects" class="block py-2 text-dark hover:text-accent transition-all-300">项目作品</a></li>
 
             </ul>
@@ -344,7 +317,7 @@
                             <!-- 请将下面的src属性改为您的头像图片路径 -->
                             <!-- 1. 将您的头像图片放在web文件夹中 -->
                             <!-- 2. 将下面的'selfie.jpg'改为您的图片文件名 -->
-                            <img src="tx.jpg" 
+                            <img src="pic/tx.jpg" 
                                  alt="郭佳旺 - U3D开发（TA）" 
                                  class="w-full h-full object-cover">
                         </div>
@@ -562,147 +535,6 @@
         </div>
     </section>
 
-    <!-- 技能专长 -->
-    <section id="skills" class="section-padding bg-gray-50">
-        <div class="container mx-auto px-4">
-            <h2 class="section-title" data-aos="fade-up">技能专长</h2>
-            
-            <!-- 专业技能 -->
-            <div class="mb-12">
-                <h3 class="text-xl font-bold mb-6" data-aos="fade-up">技术技能</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <!-- 技能1 -->
-                    <div data-aos="fade-up">
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium">Unity引擎开发</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 0%;" data-width="90%"></div>
-                        </div>
-                    </div>
-                    
-                    <!-- 技能2 -->
-                    <div data-aos="fade-up" data-aos-delay="50">
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium">C#编程</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 0%;" data-width="85%"></div>
-                        </div>
-                    </div>
-                    
-                    <!-- 技能3 -->
-                    <div data-aos="fade-up" data-aos-delay="100">
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium">Shader开发</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 0%;" data-width="85%"></div>
-                        </div>
-                    </div>
-                    
-                    <!-- 技能4 -->
-                    <div data-aos="fade-up" data-aos-delay="150">
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium">图形学</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 0%;" data-width="80%"></div>
-                        </div>
-                    </div>
-                    
-                    <!-- 技能5 -->
-                    <div data-aos="fade-up" data-aos-delay="200">
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium">Lua/XLua</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 0%;" data-width="75%"></div>
-                        </div>
-                    </div>
-                    
-                    <!-- 技能6 -->
-                    <div data-aos="fade-up" data-aos-delay="250">
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium">3D建模</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 0%;" data-width="70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- 工具技能 -->
-            <div>
-                <h3 class="text-xl font-bold mb-6" data-aos="fade-up">开发工具</h3>
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-                    <!-- 工具1 -->
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center" data-aos="fade-up">
-                        <div class="text-4xl mb-2 text-accent"><i class="fa fa-cubes"></i></div>
-                        <h4 class="font-bold">Unity</h4>
-                        <p class="text-sm text-gray-600">精通</p>
-                    </div>
-                    
-                    <!-- 工具2 -->
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="50">
-                        <div class="text-4xl mb-2 text-accent"><i class="fa fa-code"></i></div>
-                        <h4 class="font-bold">Visual Studio</h4>
-                        <p class="text-sm text-gray-600">精通</p>
-                    </div>
-                    
-                    <!-- 工具3 -->
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="100">
-                        <div class="text-4xl mb-2 text-accent"><i class="fa fa-paint-brush"></i></div>
-                        <h4 class="font-bold">Maya</h4>
-                        <p class="text-sm text-gray-600">熟练</p>
-                    </div>
-                    
-                    <!-- 工具4 -->
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="150">
-                        <div class="text-4xl mb-2 text-accent"><i class="fa fa-picture-o"></i></div>
-                        <h4 class="font-bold">Substance Painter</h4>
-                        <p class="text-sm text-gray-600">熟练</p>
-                    </div>
-                    
-                    <!-- 工具5 -->
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="200">
-                        <div class="text-4xl mb-2 text-accent"><i class="fa fa-gamepad"></i></div>
-                        <h4 class="font-bold">UE4/UE5</h4>
-                        <p class="text-sm text-gray-600">了解</p>
-                    </div>
-                    
-                    <!-- 工具6 -->
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="250">
-                        <div class="text-4xl mb-2 text-accent"><i class="fa fa-terminal"></i></div>
-                        <h4 class="font-bold">Git</h4>
-                        <p class="text-sm text-gray-600">熟练</p>
-                    </div>
-                    
-                    <!-- 工具7 -->
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="300">
-                        <div class="text-4xl mb-2 text-accent"><i class="fa fa-cogs"></i></div>
-                        <h4 class="font-bold">QFramework</h4>
-                        <p class="text-sm text-gray-600">熟练</p>
-                    </div>
-                    
-                    <!-- 工具8 -->
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="350">
-                        <div class="text-4xl mb-2 text-accent"><i class="fa fa-microchip"></i></div>
-                        <h4 class="font-bold">DirectX</h4>
-                        <p class="text-sm text-gray-600">熟悉</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- 项目作品 -->
     <section id="projects" class="section-padding bg-gray-50">
         <div class="container mx-auto px-4">
@@ -730,7 +562,7 @@
                 <div class="project-card bg-white rounded-lg overflow-hidden shadow-md" data-category="client" data-aos="fade-up">
                     <div class="h-48 overflow-hidden">
                         <!-- 请将您的游戏开发相关图片放入map文件夹中 -->
-                        <img src="1.jpg" 
+                        <img src="pic/1.jpg" 
                              alt="游戏功能开发" 
                              class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
@@ -752,7 +584,7 @@
                 <div class="project-card bg-white rounded-lg overflow-hidden shadow-md" data-category="ta" data-aos="fade-up" data-aos-delay="200">
                     <div class="h-48 overflow-hidden">
                         <!-- 请将您的Shader效果相关图片放入map文件夹中 -->
-                        <img src="1.jpg" 
+                        <img src="pic/1.jpg" 
                              alt="shader效果" 
                              class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
@@ -787,7 +619,7 @@
                 <div class="flex space-x-6">
                     <a href="#about" class="text-gray-400 hover:text-accent transition-all-300">关于我</a>
                     <a href="#experience" class="text-gray-400 hover:text-accent transition-all-300">工作经历</a>
-                    <a href="#skills" class="text-gray-400 hover:text-accent transition-all-300">技能专长</a>
+
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
@@ -951,29 +783,9 @@
                 });
             });
             
-            // 技能进度条动画
-            const skillBars = document.querySelectorAll('.skill-progress');
+
             
-            const animateSkillBars = () => {
-                skillBars.forEach(bar => {
-                    const width = bar.getAttribute('data-width');
-                    bar.style.width = width;
-                });
-            };
-            
-            // 当技能部分进入视口时触发动画
-            const skillsSection = document.getElementById('skills');
-            
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        animateSkillBars();
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.2 });
-            
-            observer.observe(skillsSection);
+
             
             // 项目筛选功能
             const filterButtons = document.querySelectorAll('.project-filter-btn');
@@ -1028,14 +840,14 @@
                             <!-- 请将您的游戏开发演示视频放入vedio文件夹中 -->
                             <div class="rounded-lg overflow-hidden">
                                 <video controls class="w-full h-auto">
-                                    <source src="test.mp4" type="video/mp4">
+                                    <source src="vedio/test.mp4" type="video/mp4">
                                     您的浏览器不支持视频播放。
                                 </video>
                             </div>
                             <div>
                                 <h4 class="text-xl font-bold mb-2">项目概述</h4>
                                 <p class="text-gray-700">
-                                    还在整理，等我整理好再展示，先看看舞蹈吧
+                                    还在整理 
                                 </p>
                             </div>
                         </div>
@@ -1048,14 +860,14 @@
                             <!-- 请将您的Shader效果演示视频放入vedio文件夹中 -->
                             <div class="rounded-lg overflow-hidden">
                                 <video controls class="w-full h-auto">
-                                    <source src="test.mp4" type="video/mp4">
+                                    <source src="vedio/test.mp4" type="video/mp4">
                                     您的浏览器不支持视频播放。
                                 </video>
                             </div>
                             <div>
                                 <h4 class="text-xl font-bold mb-2">项目概述</h4>
                                 <p class="text-gray-700">
-                                    还在整理，等我整理好再展示，先看看舞蹈吧
+                                    在整理中
                                 </p>
                             </div>
                         </div>
