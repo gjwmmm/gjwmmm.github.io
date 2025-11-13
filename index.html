@@ -601,6 +601,26 @@
                         </button>
                     </div>
                 </div>
+                <div class="project-card bg-white rounded-lg overflow-hidden shadow-md" data-category="ta" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-48 overflow-hidden">
+                        <!-- 请将您的Shader效果相关图片放入map文件夹中 -->
+                        <img src="pic/SobelOutline.png" 
+                             alt="shader效果" 
+                             class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold">Shader效果</h3>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">技术美术</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            Sobel算子描边效果
+                        </p>
+                        <button class="view-project-btn text-accent hover:text-secondary font-medium flex items-center" data-project="project4">
+                            查看详情 <i class="fa fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -868,6 +888,26 @@
                                 <h4 class="text-xl font-bold mb-2">项目概述</h4>
                                 <p class="text-gray-700">
                                     在整理中
+                                </p>
+                            </div>
+                        </div>
+                    `
+                },
+                project4: {
+                    title: '基于Sobel边缘检测的描边效果',
+                    content: `
+                        <div class="space-y-6">
+                            <!-- 请将您的Shader效果演示视频放入vedio文件夹中 -->
+                            <div class="rounded-lg overflow-hidden">
+                                <video controls class="w-full h-auto">
+                                    <source src="vedio/SobelOutline.mp4" type="video/mp4">
+                                    您的浏览器不支持视频播放。
+                                </video>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">项目概述</h4>
+                                <p class="text-gray-700">
+                                    适用于风格化渲染、视觉强化等场景，通过卷积核捕捉像素亮度变化模拟描边效果。
                                 </p>
                             </div>
                         </div>
